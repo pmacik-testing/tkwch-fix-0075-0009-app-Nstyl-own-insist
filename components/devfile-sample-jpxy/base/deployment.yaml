@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jpxy
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0009-tenant/tkwch-fix-0075-0009-app/devfile-sample-jpxy@sha256:cacbc347d4314e0fef5e6385ceee13d8a1d62a2837260557230396909d75c9aa
         name: my-nodejs
         ports:
         - containerPort: 3001
